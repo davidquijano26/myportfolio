@@ -21,44 +21,11 @@
     <h1>Francis David Quijano</h1><br>
     <h2>BS Information Technology Student | Networking & IT Support</h2><br>
     <p>Aspiring IT intern with foundational skills in networking, system support, and website deployment using Netlify.</p><br>
-    <section class="hero-slideshow">
-      <div class="slide active">
-        <img src="images/picture1.png" alt="picture1" />
-        <div class="caption">
-        </div>
-      </div>
-      <div class="slide">
-        <img src="images/picture2.png" alt="picture2" />
-        <div class="caption">
-        </div>
-      </div>
-      <div class="slide">
-        <img src="images/picture3.png" alt="Judyann_3" />
-        <div class="caption">
-        </div>
-      </div>
-  </main>
-
+    
   <footer>
     <p>&copy; Quijano Portfolio</p>
   </footer>
 
-  <script>
-    let currentSlide = 0;
-    const slides = document.querySelectorAll('.hero-slideshow .slide');
-
-    function showSlide(index) {
-      slides.forEach((slide, i) => {
-        slide.classList.toggle('active', i === index);
-      });
-    }
-
-    function nextSlide() {
-      currentSlide = (currentSlide + 1) % slides.length;
-      showSlide(currentSlide);
-    }
-
-    setInterval(nextSlide, 5000);
-  </script>
-</body>
+  </body>
 </html>
+
